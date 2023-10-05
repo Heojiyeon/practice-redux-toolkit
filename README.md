@@ -1,27 +1,22 @@
-# vite-template-redux
+# redux-toolkit-playground
+<h3>관련 링크</h3>
+관련 학습을 하며 기록한 블로그입니다.
+<br />
+👩🏻‍💻 https://velog.io/@jiy7107/Redux-Toolkit-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+<h3>폴더구조</h3>  
+redux 내부에 store 및 관련 훅을, 이외에 slice는 modules 폴더 내에 생성
+<br />
+<br />
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
-```
-
-## Goals
-
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
-
-## Scripts
-
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
-
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+📦src  
+ ┣ 📂components  
+ ┃ ┣ 📜SuccessRate.tsx  
+ ┃ ┣ 📜Todo.tsx  
+ ┃ ┣ 📜TodoForm.tsx  
+ ┃ ┗ 📜TodoList.tsx  
+ ┣ 📂redux  
+ ┃ ┣ 📂modules  
+ ┃ ┃ ┗ 📜todo.ts  
+ ┃ ┣ 📜configureStore.ts  
+ ┃ ┗ 📜hooks.ts  
