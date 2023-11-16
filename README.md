@@ -1,4 +1,4 @@
-# redux-toolkit-playground
+
 <h3>관련 링크</h3>
 관련 학습을 하며 기록한 블로그입니다.
 <br />
